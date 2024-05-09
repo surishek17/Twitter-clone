@@ -1,0 +1,41 @@
+Hi, I am Shekhar Suri from Una (Himachal Pradesh).
+
+This is my CapStone Project-2 Backend Assignment. 
+
+***Before Run the Program Please Firstly run "npm install" command to install the "node-modules" and "package.json","package-lock.json" file  in the folder***.
+
+In this Assignment, Firstly i am created a CapsProj-2_surishekhar17@gmail.com folder in this folder i used command "npx create-react-app frontend". In this  i created folder backend using the command with installed file "package.json" and "package-lock.json" in each folders using command npm install.
+
+Now, In the frontend folder in src folder I have created "components" folder "pages" folder "assets" folder "redux" folder and "utils" folder.
+
+Now ,In the components folder i have created  all the files like CustomButton.jsx,EditProfile.jsx,FriendsCard.jsx,index.js,Loading.jsx,PostCard.jsx,ProfileCard.jsx, TextInput.jsx, TopBar.jsx etc.  
+
+Now, In the pages folder i have created files like Home.jsx,Login.js,index.js,Profile.jsx,Register.jsx,ResetPassword.jsx etc.
+
+Now, In the redux folder i have created files like reducer.js,store.js,theme.js,postSlice.js,userSlice.js etc.
+
+Now, In the utils folder i have created file like index.js.
+
+Now, In the frontend folder I have edited the App.js file. In this i have imported all the components and in this i have also attached the Layout , Home, Profile, Register,Login and ResetPassword in Div section. 
+
+Now, In the frontend folder again I have edited the index.js file. In this i have imported the files like BrowserRouter,Provider,store,App etc. and in this i have also attached the route to the path for the pages. 
+
+Now, In the frontend folder again I have edited the index.css file. In this i have used tailwind css.
+
+Now,  In the frontend folder I have created a new file called ".env" file. In this I have used "REACT_APP_CLOUDINARY_ID" and "API_KEY" and "API_SECRET".
+
+Now, In the "backend" folder I have created server.js file. In this I have imported express,cors, dotenv, morgan,bodyParser, path, helmet, dbConnection, errorMiddleware and router etc. 
+
+Now, In the "backend" folder I have created folder controllers. In this I have created files like authController.js file, postController.js File and userController.js File.
+
+Now, In the "backend" folder I have created folder dbConfig. In this I have created file like index.js file.
+
+Now, In the "backend" folder I have created folder middleware. In this I have created files like authMiddleware.js file, errorMiddleware.js File.
+
+Now, In the "backend" folder I have created folder models. In this I have created files like commentModel.js file, emailVerification.js File and friendRequest.js File, PasswordReset.js file,postModel.js and userModel.js etc.
+
+Now, In the "backend" folder I have created folder routes. In this I have created files like authRoutes.js file, index.js File and postRoutes.js File, userRoutes.js file.
+
+Now, In the "backend" folder I have created folder utils. In this I have created files like sendEmail.js file, index.js File.
+
+Now,  In the "backend" folder I have created a new file called ".env" file. In this I have used "MONGODB_URL" to connect the mongodb atlas database and "JWT_SECRET_KEY" used to  authentication secretly and "PORT" that are we using 3000 and "AUTH_EMAIL" used to verify the email and "AUTH_PASSWORD" and also "APP_URL" is used to give the url that is localhost.
